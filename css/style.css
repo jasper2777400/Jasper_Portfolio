@@ -1,0 +1,29 @@
+body{
+    background-color: brown;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    padding-top:50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
