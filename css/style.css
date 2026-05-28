@@ -10,11 +10,6 @@ body {
     flex-direction: column;
 }
 
-.center{
-    display: flex;
-    flex-direction: row;
-}
-
 header {
     position: fixed;
     top: 0;
@@ -38,10 +33,31 @@ header {
     align-items: center;
 }
 
+header h1{
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color:#edf2f7
+}
+
 nav {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+nav a {
+    color: #718096;
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    font-family: 'Finlandica', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #000000;
+    transform: translateX(4px)
 }
 
 main {
