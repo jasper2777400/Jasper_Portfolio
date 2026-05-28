@@ -27,3 +27,15 @@ main{
     flex-direction: column;
     flex: 3;
 }
+
+@media (max-width: 768px){
+    .center {
+        flex-direction: column;
+    }
+}
+
+nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 0;
+}
