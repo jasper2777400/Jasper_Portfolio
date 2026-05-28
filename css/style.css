@@ -44,10 +44,10 @@ nav {
     gap: 16px;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    flex: 3;
+main {
+    margin-left: 280px;
+    flex: 1;
+    background-color: #f7fafc;
 }
 
 @media (max-width: 768px){
