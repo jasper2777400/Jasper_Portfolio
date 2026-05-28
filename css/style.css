@@ -61,7 +61,8 @@ nav a:hover {
 }
 
 main {
-    margin-left: 280px;
+    margin-left: 280px; 
+    padding: 60px 40px; 
     flex: 1;
     background-color: #f7fafc;
 }
