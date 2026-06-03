@@ -75,4 +75,25 @@ section {
         flex-direction: column;
     }
 }
+.section-content, .project-card, .skills-list-container {
+    background: var(--bg-card);
+    padding: 30px;
+    border-radius: var(--radius-soft);
+    box-shadow: var(--shadow-subtle);
+    border: 1px solid #f1f5f9;
+}
 
+.about-box {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%; 
+    box-shadow: var(--shadow-subtle);
+    border: 3px solid white;
+}
