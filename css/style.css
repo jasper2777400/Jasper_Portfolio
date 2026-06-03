@@ -97,3 +97,16 @@ section {
     box-shadow: var(--shadow-subtle);
     border: 3px solid white;
 }
+
+ul {
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+li {
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
