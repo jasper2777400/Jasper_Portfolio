@@ -3,6 +3,7 @@ body {
     font-family: 'Inter', sans-serif;   
     color: var(--text-dark);
     line-height: 1.6;
+    background-color: #f8fafc;
 }
 
 .container{
@@ -16,7 +17,7 @@ header {
     left: 0;
     width: 280px;
     height: 100vh;
-    background-color: #aabb94;
+    background-color: #1e293b
     border-right: 1px solid #edf2f7;
     padding: 40px 30px;
     display: flex;
@@ -47,7 +48,7 @@ nav {
 }
 
 nav a {
-    color: #384530; /* High contrast dark-sage tint */
+    color: #94a3b8;
     font-size: 1.2rem;
     font-family: 'Finlandica', sans-serif;
     text-decoration: none;
@@ -56,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #000000;
+    color: #3b82f6;
     transform: translateX(6px);
 }
 
@@ -110,3 +111,24 @@ li {
     color: var(--text-dark);
 }
 
+:root {
+    --bg-main: #f8fafc;       
+    --bg-card: #ffffff;        
+    --sidebar-bg: #1e293b;    
+    --text-dark: #0f172a;      
+    --text-muted: #64748b;    
+    --accent-hover: #3b82f6;  
+    
+   
+    --radius-soft: 12px;
+    --shadow-subtle: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    --transition: all 0.25s ease-in-out;
+}
+
+header h1 {
+    font-family: 'Finlandica', sans-serif;
+    font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+    font-weight: 700;
+    color: #ffffff !important; 
+    line-height: 1.2;
+}
